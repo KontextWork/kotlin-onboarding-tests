@@ -1,0 +1,14 @@
+# we generate the project files using gradle idea
+**/**.iml
+**/**.ipr
+
+.gradle
+build
+out
+.idea/httpRequests
+.idea/libraries
+.idea/workspace.xml
+.idea/dataSources/*
+.idea/sonarlint/*
+.idea/sonarlint-state.xml
+
