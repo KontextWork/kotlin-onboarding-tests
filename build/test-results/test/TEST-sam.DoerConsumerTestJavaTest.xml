@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="sam.DoerConsumerTestJavaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-20T14:09:02" hostname="em-laptop-kw" time="0.001">
+<testsuite name="sam.DoerConsumerTestJavaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-20T14:36:13" hostname="em-laptop-kw" time="0.0">
   <properties/>
-  <testcase name="doer()" classname="sam.DoerConsumerTestJavaTest" time="0.001"/>
+  <testcase name="doer()" classname="sam.DoerConsumerTestJavaTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

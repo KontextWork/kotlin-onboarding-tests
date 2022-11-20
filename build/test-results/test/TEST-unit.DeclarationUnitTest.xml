@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="unit.DeclarationUnitTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-20T14:09:02" hostname="em-laptop-kw" time="0.003">
+<testsuite name="unit.DeclarationUnitTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-20T14:36:14" hostname="em-laptop-kw" time="0.005">
   <properties/>
-  <testcase name="doReturnNothing()" classname="unit.DeclarationUnitTest" time="0.002"/>
+  <testcase name="doReturnNothing()" classname="unit.DeclarationUnitTest" time="0.004"/>
   <testcase name="doReturnUnit()" classname="unit.DeclarationUnitTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
