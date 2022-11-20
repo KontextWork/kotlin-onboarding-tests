@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="companion.DeclarationCompanionTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-20T14:09:02" hostname="em-laptop-kw" time="0.007">
+  <properties/>
+  <testcase name="accessCompanionStatic()" classname="companion.DeclarationCompanionTest" time="0.002"/>
+  <testcase name="accessStatic()" classname="companion.DeclarationCompanionTest" time="0.004"/>
+  <system-out><![CDATA[Program arguments: bar
+Program arguments: property FOO (Kotlin reflection is not available)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
