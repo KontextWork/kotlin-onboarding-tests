@@ -10,3 +10,4 @@ Also
  - Companion Object
  - default parameters
  - Mocking (Mockito and MockK)
+ - Data (Getter/Setter/Data)
