@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="defaultParamValue.DeclarationDefaultParamValueTestJavaTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-11-20T14:36:13" hostname="em-laptop-kw" time="0.052">
+<testsuite name="defaultParamValue.DeclarationDefaultParamValueTestJavaTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-11-21T06:42:29" hostname="em-laptop-kw" time="0.03">
   <properties/>
-  <testcase name="allGivenAtTheEnd()" classname="defaultParamValue.DeclarationDefaultParamValueTestJavaTest" time="0.049"/>
+  <testcase name="allGivenAtTheEnd()" classname="defaultParamValue.DeclarationDefaultParamValueTestJavaTest" time="0.027"/>
   <testcase name="allGivenAtTheStart()" classname="defaultParamValue.DeclarationDefaultParamValueTestJavaTest" time="0.001"/>
-  <testcase name="atTheEnd()" classname="defaultParamValue.DeclarationDefaultParamValueTestJavaTest" time="0.001"/>
+  <testcase name="atTheEnd()" classname="defaultParamValue.DeclarationDefaultParamValueTestJavaTest" time="0.0"/>
   <testcase name="atTheStart()" classname="defaultParamValue.DeclarationDefaultParamValueTestJavaTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

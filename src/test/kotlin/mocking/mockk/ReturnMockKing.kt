@@ -16,7 +16,6 @@ class ReturnMockKing {
     }
     @Test
     fun testDoReturn(@MockK underTest: TestClass) {
-        // The ugly `when`
         every {
             underTest.simpleReturn()
         }.returns(2)
