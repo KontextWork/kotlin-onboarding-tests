@@ -7,7 +7,7 @@ internal class DeclarationUnitTest {
     @Test
     fun doReturnNothing() {
         val underTest = DeclarationUnit()
-        assertThat(underTest.returnNothing()).isInstanceOf(Unit::class.java)
+        assertThat(underTest.returnImplicitUnit()).isInstanceOf(Unit::class.java)
     }
 
     @Test
