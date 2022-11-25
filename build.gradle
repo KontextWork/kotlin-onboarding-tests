@@ -11,6 +11,11 @@ repositories {
     mavenCentral()
 }
 
+sourceSets {
+    main.java.srcDirs += 'src/main/kotlin'
+    test.java.srcDirs += 'src/test/kotlin'
+}
+
 dependencies {
     testImplementation(
             'org.jetbrains.kotlin:kotlin-test',
