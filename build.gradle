@@ -1,6 +1,9 @@
 plugins {
     id 'java'
     id 'org.jetbrains.kotlin.jvm' version '1.8.0'
+    // See src/test/java/utils/MyLombokPojo.java why we are using this lombok plugin
+    id 'org.jetbrains.kotlin.plugin.lombok' version '1.8.10'
+    id 'io.freefair.lombok' version '6.6.3'
     id 'application'
 }
 
@@ -33,6 +36,25 @@ dependencies {
             "io.mockk:mockk:1.13.2",
     )
 
+    // HINT: this is not needed since we use the kotlin lombok gradle plugin
+    // see more under src/test/java/utils/MyLombokPojo.java
+//    annotationProcessor(
+//            "org.projectlombok:lombok:1.18.26",
+//    )
+//
+//    compileOnly(
+//            "org.projectlombok:lombok:1.18.26",
+//    )
+//
+//    testImplementation(
+//            "org.projectlombok:lombok:1.18.26"
+//    )
+//
+//    testAnnotationProcessor(
+//            // blaze-persistence-entity-view-processor is not needed in the test space
+//            // since all our models are only in production
+//            "org.projectlombok:lombok:1.18.26",
+//    )
 }
 
 test {
@@ -44,6 +66,7 @@ kotlin {
         languageVersion.set(JavaLanguageVersion.of(17))
     }
 }
+
 
 application {
     mainClassName = 'MainKt'
