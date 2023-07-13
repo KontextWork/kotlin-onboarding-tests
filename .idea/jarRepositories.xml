@@ -41,5 +41,10 @@
       <option name="name" value="maven" />
       <option name="url" value="https://nexus.kw.kontextwork.com/repository/kw-maven-proxy-group" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven2" />
+      <option name="name" value="maven2" />
+      <option name="url" value="https://build.shibboleth.net/maven/releases/" />
+    </remote-repository>
   </component>
 </project>

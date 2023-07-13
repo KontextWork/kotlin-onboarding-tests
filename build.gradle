@@ -1,9 +1,9 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.kotlin.jvm' version '1.8.0'
+    id 'org.jetbrains.kotlin.jvm' version '1.9.0'
     // See src/test/java/utils/MyLombokPojo.java why we are using this lombok plugin
-    id 'org.jetbrains.kotlin.plugin.lombok' version '1.8.10'
-    id 'io.freefair.lombok' version '6.6.3'
+    id 'org.jetbrains.kotlin.plugin.lombok' version '1.9.0'
+    id 'io.freefair.lombok' version '8.1.0'
     id 'application'
 }
 
